@@ -10,6 +10,8 @@ var stack = require('poe-ui/server');
 
 var app = module.exports = stack({});
 
+app.builder.resolve.modulesDirectories.push('./src/modules');
+
 app.builder.addES6({
   test: /.(js)$/,
   include: /ui-kit/

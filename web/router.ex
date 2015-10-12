@@ -23,6 +23,7 @@ defmodule ElixirCasts.Router do
   scope "/api", ElixirCasts do
     pipe_through :api
 
+    get "/", ApiController, :index
     resources "/episodes", EpisodeController
   end
 end

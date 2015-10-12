@@ -3,8 +3,7 @@
 
 html
   %ui-kit/skins/base/typography.ess
-  background-color = __.color.azure
 
 .App-component
-  background-color = __.color.red
+  background white
   color = __.color.primary

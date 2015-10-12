@@ -1,0 +1,12 @@
+import './index.ess'
+import ScreencastListItem from '../../components/screencast-list-item'
+
+var episodes = _.episodes
+console.log("Episodes:", episodes)
+
+#screencast-list-container
+  ul
+    each e in episodes
+      ScreencastListItem(episode=e)  
+      
+export var displayName = 'Screencasts'
