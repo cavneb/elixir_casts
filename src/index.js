@@ -8,7 +8,7 @@ import Poe from 'poe-ui';
 var routes = require('./routes.jade?force-load').render;
 var Forms = require('form-store');
 var Store = require('hyper-store');
-var Client = require('hyper-client-wait1');
+var Client = require('hyper-client-superagent');
 var Translate = require('onus-translate');
 
 var API_URL = browser.env.API_URL;

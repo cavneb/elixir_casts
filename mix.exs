@@ -37,7 +37,8 @@ defmodule ElixirCasts.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
      {:httpoison, "~> 0.7.2"},
-     {:feeder_ex, "~> 0.0.2"}]
+     {:feeder_ex, "~> 0.0.2"},
+     {:cors_plug, "~> 0.1.4"}]
   end
 
   # Aliases are shortcut or tasks specific to the current project.
